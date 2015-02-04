@@ -1,0 +1,105 @@
+/* Common styles */
+h1{
+	font-size: 4em;
+	margin-bottom: 5px;
+	}
+h2{
+	font-size: 1em;
+	margin-left: 330px;
+	
+	}
+h3{
+	font-size: 1.5em;
+	padding-bottom: 2%;
+	}
+p{
+	padding-bottom: 2%;
+	}
+
+
+/*Moduls*/
+#container{
+	background: #000000 url(../img/header.jpg) no-repeat;
+	font: 13px Arial, Helvetica, sans-serif;
+	color: #E9E9E9;
+	position: relative; 
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	min-width: 900px;
+
+	}
+/* header*/
+#intro{
+	margin-right: 130px;
+	margin-top: 300px;
+	}
+#pageHeader{
+	margin-bottom: 20px;
+	width: 80%;
+	height: 100px;
+	
+	}
+#quickSummary{
+	float:left;
+	width: 20%;
+		
+	}
+#preamble{
+	display: inline-block;
+	width: 60%;
+	margin-left: 2%;
+	margin-right: 2%;
+
+	}
+/*supportText основной текст*/ 
+
+#supportingText{
+	margin-right: 240px;
+	}
+
+#footer{
+	clear: both;
+	height: 80px;
+	padding-top: 20px;
+	text-align: center;
+	margin-right: -130px;
+	background: url(../img/footer.gif) repeat-x;
+}
+#footer a {
+	color: #E0E7FF;
+	}
+
+
+/*linkList */
+#lselect{
+	display: none;
+	}
+
+/* Right parts*/
+#larchives{
+	position: absolute;
+	right: 0; top: 410px;
+	height: 170px; width:240px;
+	padding-left: 15px;
+	padding-top: 15px;
+	background: url(../img/title.gif) no-repeat;
+	}
+#larchives h3 span{
+	
+	color: #FFFFFF;
+	}
+#linkList a{
+	
+	color: #FFFFFF;
+	}
+
+#lresources{
+	position: absolute;
+	right: 0; top: 600px;
+	height: 170px; width:240px;
+	padding-left: 15px;
+	padding-top: 15px;
+	background: url(../img/title.gif) no-repeat;
+	}
+

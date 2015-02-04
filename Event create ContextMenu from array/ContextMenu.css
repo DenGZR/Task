@@ -1,0 +1,57 @@
+.context-menu,
+.context-menu ul {
+    position: absolute;
+    list-style-type: none;
+    border: 1px solid #ccc;
+    padding: 10px 0;
+    box-shadow: 2px 2px 2px #ccc;
+    background: #fff;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.context-menu {
+    display: none;
+}
+
+.context-menu li {
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.context-menu li:hover {
+    background: #5c5fe9;
+    color: #fff;
+}
+
+.context-menu .submenu:hover ul {
+    color: #000;
+}
+
+.hide ul {
+    display: none;
+}
+
+.submenu ul {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+}
+
+.submenu {
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.context-menu li {
+    padding: 0 10px;
+    margin: 0;
+}
+.submenu span{
+    padding-left: 10px;
+    font-size: 14px;
+}

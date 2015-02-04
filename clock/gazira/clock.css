@@ -1,0 +1,20 @@
+.fireclock {
+    width: 640px;
+    margin: 0px 480px;
+    overflow: hidden;
+    border: 1px solid;
+    background: #000;
+    border-radius: 10px 10px 10px 10px;
+	}
+.hours0, .hours1, .minutes0, .minutes1, .seconds0, .seconds1 {
+    height: 100px;
+    width: 100px;
+    float: left;
+    display: block;
+    font-size: 5em;
+    color: #ED3503;
+}
+.hours1, .minutes1 {
+    margin-right: 10px;
+
+}

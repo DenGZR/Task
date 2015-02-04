@@ -1,0 +1,47 @@
+.wrap{
+    margin: 5px;
+    background: linear-gradient(to top, #fefcea, #f1da36) no-repeat;
+}
+h1{
+    font-size: 200%;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+.formUserDesire{
+    border: 1px solid grey;
+    margin: 3px;
+    padding: 5px;
+    width: 40%;
+}
+.userData{
+    padding: 2px 0px 2px 0px;
+}
+.error{
+    border: 1px solid red;
+}
+.okvalid{
+    border: 1px solid green;
+}
+#errorlogin ,#erroremail, #errortextArea{
+   display: none;
+}
+.errorMassegeBlock{
+    position: absolute;
+    left: 45%;
+}
+#newDesireBlock{
+    width: 80%;
+}
+.newDesire{
+    width: 25%;
+    height: 100px;
+    margin-left: 3%;
+    margin-top: 10px;
+    border: 1px solid grey;
+    
+    float: left;
+
+    overflow: hidden; 
+    text-align: center;
+    padding-top: 3em;  
+}

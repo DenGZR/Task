@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>board desires</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/board_desires.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<h1>Доска желаний</h1>
+		<div class="errorMassegeBlock">
+			<p id="massage">Пожалуйста заполните все поля</p>
+			<p id="errorlogin">ошибка login</p>
+			<p id="erroremail">ошибка Email</p>
+			<p id="errortextArea">ошибка TextArea</p>
+		</div>
+
+		 <form class="formUserDesire" name="test" method="post" action="input1.php">
+
+			<p class="titelForm">Добавить желание</p>
+			<label >Имя:</label>
+			<input id="login" class="userData" type="text" tabindex="1"></input>
+		
+			<label >E-mail:</label>
+			<input id="email" class="userData" type="text" tabindex="2"></input>
+			
+			<p class="userData">Пожелание:<br>
+				<textarea id="textArea" name="desireText"  cols="40" rows="3" tabindex="3"></textarea>
+			</p>
+	  		<p class="userData">
+	  			<button id="addNewDesire" type="button" tabindex="4" disabled>Добавить</button>
+	  		</p>
+	  	</form>
+	  	<div id="newDesireBlock">
+	  		<p class="newDesire">привет мир</p>
+	  	</div>
+	</div>
+</body>
+</html>
